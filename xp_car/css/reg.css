@@ -1,0 +1,33 @@
+.form{
+    position: relative;
+}
+.btn{
+    position: absolute;
+    float: right;
+    width: 12%;
+    height:38px;
+    font-size: 12px;
+    outline: 0;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    background: red;
+    color: #fff;
+    top:175px;
+    left:674px;
+}
+.btn:hover{
+    background:#B22934;
+}
+.txt{
+    color: #222;
+    text-align: center;
+    margin-top: 15px;
+}
+.txt a{
+    color: #222;
+    font-size: 14px;
+}
+.txt a:hover{
+    text-decoration: underline;
+}

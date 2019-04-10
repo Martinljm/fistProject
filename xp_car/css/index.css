@@ -1,0 +1,381 @@
+*{margin:0;padding:0;}
+/*导航栏*/
+.my_header{
+    display:block;
+    width:100%;
+}
+#my__header{
+    height:70px;
+}
+.nav{
+    width:100%;
+    height:70px;
+    background:#fff;
+    font-size:13px;
+}
+a{text-decoration: none;}
+ul{list-style:none;}
+.nav a{
+    color:#333;
+
+}
+.nav a:hover{
+    color:#007bff;
+}
+.nav img,.nav ul li,.img ul li{
+    float:left;
+
+}
+.nav img {
+    width:80px;
+    display:block;
+    margin:28px 75px 0 75px;
+}
+.nav ul{margin-top:27px;
+    position: relative;
+}
+.nav ul li{
+    padding-right:60px;
+}
+.nav .dropdown-menu,.nav .dropdown-menu2{
+    width:100px;
+    height:110px;
+    clear: both;
+    position: absolute;
+    display: none;
+    background: #fff;
+    top:16px;
+    left:500px;
+    box-shadow: 0px 1px 3px  0px #999;
+    border-radius: 0 0 2px 2px;
+}
+.nav .ddm{
+    left:838px;
+}
+.dropdown-menu li,.dropdown-menu2 li{
+  margin: 24px 0 0 23px;
+    width: 58px;
+}
+.login{
+    margin-left:345px;
+}
+/*1楼*/
+.f1{height:674px;}
+.blue-tiao{
+    position: absolute;
+    top:71px;
+    left:95px;
+    width:197px;
+    height:84.4%;
+    background :rgba(0,90,224,0.81);
+    z-index: 10;
+    transform: skew(-10deg);
+    overflow: hidden;
+}
+.blue-tiao ul{
+    margin-top:250px;
+}
+.blue-tiao ul li:hover{
+    background:#5A8BD5;
+}
+.list{
+    display:block;
+    width: 197px;
+    height:40px;
+    font-size:13px;
+    padding-top:25px;
+    padding-left:30px;
+
+}
+.text{
+    color:#fff;
+    z-index:15;
+}
+.text a{
+    color:#fff;
+
+}
+.text h3{
+    font-size: 58px;
+    position: absolute;
+    z-index: 1000;
+    top:160px;
+    left:99px;
+
+}
+.text p{
+    font-size: 37px;
+    position: absolute;
+    z-index: 1000;
+    top:242px;
+    left:99px;
+}
+.picture img{
+    width:100%;
+    position: absolute;
+    top:70px;
+    left:0px;
+    z-index: -1;
+}
+
+/*2楼*/
+.f2{
+    width:100%;
+    margin:27px 0 0 30px;
+}
+.f2 img{
+    width:430px;
+    height:332px;
+    transform: scale(1);
+    transition-property:all;
+    transition-duration:1s ;
+}
+
+.f2 img:hover{
+    transform: scale(1.1);
+
+}
+.first,.second,.third{
+    width:430px;
+    float: left;
+}
+.p1{
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 2px;/*改变字符间距*/
+    margin-top: 20px ;
+}
+.p3{
+    font-size:10px;
+    color:#999999;
+}
+
+.btn{
+    width:160px;
+    height:40px;
+    border-radius: 20px;
+    border:2px solid #000;
+    background:#fff;
+    margin-top: 35px;
+    font-size: 17px;
+    transition: 1s ;
+    margin-bottom:67px;
+    outline: none;
+}
+.btn1{
+    width:160px;
+    height:40px;
+    border-radius: 20px;
+    border:2px solid #fff;
+    background-color:transparent;
+    color:#fff;
+    font-size: 17px;
+    transition: 1s ;
+    outline:none;
+}
+.btn:hover,.btn1:hover{
+    background:#007bff;
+    color:#fff;
+    border:0;
+}
+.second,.third{
+    margin-left:30px;
+}
+/*三楼*/
+.f3,.f4{
+    width:100%;
+    clear: both;
+
+}
+.img{
+    width:100%;
+    height:38.541666666666664vw;
+    background: url(../img/index/home-form-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+.form{
+    margin:148px 0 0 978px;
+}
+.form p{
+    color:#fff;
+    font-size:28px;
+}
+.form table{
+    margin-top:45px;
+    margin-bottom:20px;
+}
+
+.i1,.i2,.i3,.i4,.i5{
+    display: block;
+    margin-bottom:35px;
+    background-color:transparent;
+    border:0;
+    border-bottom:1px solid #444;
+    outline: none;
+    color:#444;
+    padding-left: 1px;
+}
+.i1{
+    width:342px;
+}
+.i2{
+    width:147px;
+    margin-right:20px;
+}
+.i4{
+    width:151px;
+    margin-right:20px;
+}
+.i5{
+    width:173px;
+
+}
+.form button{
+    margin:-10px 0 0 95px;
+}
+.f4 .img{
+    background:url(../img/index/g3_index_13.jpg) no-repeat center center;
+    height:445px;
+    background-size: cover;
+}
+.app img{
+    width:59px;
+    height:64px;
+}
+.app p{
+    color:#fff;
+}
+.app div p:first-child{
+    font-size: 3.472vw;
+    width: 600px;
+}
+.app .t1{
+    font-size:1.1vw;
+    color:#C7C7C7;
+    letter-spacing: 7px;
+    width:600px;
+}
+
+.app{
+    width:733px;
+    height:205px;
+    margin:96px 690px;
+}
+.d1{
+    width:700px;
+}
+.logo{
+    margin-top:50px;
+    height:120px;
+}
+.logo li{
+    margin-right:45px;
+}
+.logo img{
+    margin:0 17px;
+}
+.logo p{
+    margin-top:25px;
+}
+.download button{
+    margin:30px 15px 0 0;
+}
+/*五楼*/
+.f5{
+    width:100%;
+    height:322px;
+    background: url(../img/index/g3-operate-block2.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+.prev,.next{
+    display: block;
+    float:left;
+}
+.prev{
+    margin:220px 0 0 50px;
+}
+.next{
+    margin:220px 0 0 1050px;
+}
+.center{
+    position: relative;
+}
+.center button{
+    position: absolute;
+    top:262px;
+    left:600px;
+}
+/*页面底部*/
+.my_footer{
+    display:block;
+    width:100%;
+    height:350px;
+
+}
+.footer{
+    width:100%;
+    height:350px;
+    background-color: #000000;
+    color:#fff;
+    position: relative;
+
+}
+.lie{
+    width:1343px;
+    height:200px;
+    border-bottom:1px solid #555;
+    margin:70px 0 0 40px;
+}
+.lie a{
+    color:#999;
+}
+.lie div{
+    float: left;
+}
+.lie p{
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+.lie ul li{
+    font-size:14px;
+    margin-bottom:17px;
+    margin-left: 3px;
+}
+.lie ul{
+    margin-right:90px;
+}
+.tele{
+    margin-left: 380px;
+}
+.tele .phone{
+    font-size:28px;
+    margin-bottom:10px;
+}
+.tele .day{
+    font-size: 18px;
+    opacity: 0.6;
+    margin-left:11px;
+    margin-bottom:30px;
+}
+
+
+.fu{
+    margin-left:100px;
+}
+.copyright{
+    width:535px;
+    position: absolute;
+    bottom: 15px;
+    right: 40px;
+    text-align: end;
+}
+.copyright a,.copyright p{
+    color:#555;
+    font-size: 14px;
+}
+.copyright img{
+    width:15px;
+    height:15px;
+ }

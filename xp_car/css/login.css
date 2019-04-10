@@ -1,0 +1,94 @@
+*{margin:0;padding:0;}
+body{
+    background:#f5f5f5 url(../img/login/footer.png) no-repeat 0 628px;
+    padding-bottom: 161px;
+    background-size: 100% 161px;
+}
+a{
+    text-decoration: none;
+}
+.page{
+
+    width: 900px;
+    height:620px;
+    background: #fff;
+    top:40px;
+    left:50%;
+    margin-left: -450px;
+    z-index:10;
+    position: absolute;
+    box-shadow:0px 1px 1px 0px rgba(0,0,0,0.06),
+                0px 2px 23px 0px rgba(0,0,0,0.2);
+
+}
+.left img{
+    width:50%;
+    height:620px;
+    float:left;
+}
+.right img{
+    width:164px;
+    height:36px;
+    float:left;
+    margin:53px 0 14px 144px ;
+}
+div.form{
+    display:block;
+}
+.form input{
+    width:335px;
+    height:50px;
+    margin:27px 0 0 53px;
+    padding-left:3px;
+    outline: none;
+    border:1px solid #E1E1E1;
+
+}
+
+
+button{
+    border:0;
+    width:339px;
+    height:45px;
+    background: #FF0000;
+    margin:40px 0 0 53px;
+    outline:none;
+    border-radius: 4px;
+}
+.right .hover1 button:hover{
+    background:#B22934;
+}
+
+
+a button{
+    color:#fff;
+}
+.reg{
+    position:relative;
+}
+
+.reg .p1{
+    position: absolute;
+    left:504px;
+    top:20px;
+}
+.reg .p2{
+    position: absolute;
+    right: 60px;
+    top:20px;
+
+}
+
+.reg p a{
+    color:#000;
+}
+
+.footer{
+    position: absolute;
+    text-align: center;
+    color:#9F9F9F;
+    font-size:12px;
+    line-height: 24px;
+    top:741px;
+    left:42%;
+}
