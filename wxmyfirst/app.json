@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/oder/oder",
+    "pages/my/my",
+    "pages/fwts/fwts"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7ED53D",
+    "navigationBarTitleText": "蒸汽洗车",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/tabs/home.png",
+        "selectedIconPath": "pages/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/oder/oder",
+        "text": "订单",
+        "iconPath": "pages/tabs/message.png",
+        "selectedIconPath": "pages/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/tabs/profile.png",
+        "selectedIconPath": "pages/tabs/profile-active.png"
+      }
+    ]
+  }
+}
